@@ -4,6 +4,9 @@ nav:
     - Home: index.md
     - Instructors: instructors.md
     - Helpers: helpers.md
+    - Curriculum Notes: curriculum-notes.md    
+    - Tips for Instructors: tips.md
+    - Get Involved: getting-involved.md
     - Resources: resources.md
 theme:
   name: 'material'

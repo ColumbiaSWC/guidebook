@@ -12,6 +12,3 @@ Foundations for Research Computing has a number of programs and initiatives, inc
 - A Distinguished Lecture series featuring practitioners from industry 
 - A Curriculum Innovation Fellows grant program, where grad students and postdocs work with Foundations to create curriculum modules for new training events
 - A Python User Group, community-facing events that combine a more informal group workshop or discussion with time for individual work and socializing
-
-
-

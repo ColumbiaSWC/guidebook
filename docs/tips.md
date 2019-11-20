@@ -1,8 +1,10 @@
-### Tips For Instructors
+# Tips For Instructors
+
+(From [The Carpentries Handbook: Tips for Instructors](https://docs.carpentries.org/topic_folders/hosts_instructors/instructor_tips.html)
 
 This page has an assortment of practical tips for instructors.  
 
-#### Handling Software Installation
+### Handling Software Installation
 
 Installing software on laptops has gotten a lot better over the years, but it can still be a huge challenge at the start of a workshop.  Here are some suggestions for making the process go as smoothly as possible.  
 Software installation can be frustrating, but in the end, it almost always gets done.  Be positive, and when it finally works, you can feel proud.  
