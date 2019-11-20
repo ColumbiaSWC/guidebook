@@ -1,0 +1,13 @@
+site_name: Foundations Guidebook
+
+nav:
+    - Home: index.md
+    - Instructors: instructors.md
+    - Helpers: helpers.md
+    - Resources: resources.md
+theme:
+  name: 'material'
+  primary: 'blue'
+  accent: 'green'
+
+  logo: 'images/crown-invert.png'
