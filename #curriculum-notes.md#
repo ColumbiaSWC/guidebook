@@ -1,0 +1,33 @@
+# Curriculum Notes
+
+## Alan Croswell's notes on the Software Carpentry curriculum
+
+
+### Unix Shell
+
+- Man pages missing from git-bash on windows. Fix with `google man ls`
+- Macos `ls --help` doesn’t work (it’s too BSDish to have the --help switch)
+- `sort -n lengths.txt` gives the same result without `-n` because wc’s output is left-padded and spaces collate differently on MacOS vs. Linux. See #810. LANG=C vs. LANG=en_US.UTF8. A better example would use left-aligned numbers.
+Tab completion doesn’t appear to work in git bash on Windows
+Python
+Use of jupyter lab vs. notebook – doesn’t really matter but since the syllabus uses Lab, we should too.
+Someone asked about web scraping, which isn’t covered in this lesson. There’s is a LC lesson on web scraping with Python and the use of Xpath, which may be a good more advanced workshop to run during the semester.
+There was one case I noticed in the Beta Python lesson that the exercises referenced datasets that were not included in the setup data, which made it non-useful.
+Non-US Keyboard
+French Mac has no ~ (googled: use option-N but that doesn’t work on US keyboard). In SWC slack the answer was these keys are on option-numbers. Certainly not the case on my US keyboard…. Added this int'l keyboard info to the workshops wiki.
+international students don’t always know the names for single vs. double quotes, tilde, etc.
+Git
+git lesson setup page doesn’t say to create a github.com account; only in the git download instructions. Might be better to say it here as well.
+We didn’t get to collaboration via github PR’s, merges, etc. due to poor time management. We need to stick to the syllabus and limit the digressions.
+Windows users get a GUI GitHub login prompt when trying to do a git push to a remote, rather than being prompted on the terminal
+One student confused the ! in the GitHub welcome email as part of their username, which caused git bash to freak out with a broken pipe error when they tried to push to Github. Worth noting in case anyone else has this issue.
+LaTeX
+Out of the entire class, only one student uses LaTeX to write her papers and was lamenting how her colleagues waste a lot of time trying to center figures in Word, etc. Should we offer a LaTeX workshop? Does somebody already? Did you know you can export a Jupyter notebook as LaTex? And, of course, matplotlib and R can export figures in any number of vector formats (svg, eps, etc.) that render nicely with TeX.
+She uses https://www.overleaf.com but apps like TeXShop are pretty nice and fit the “run it all on your laptop” mode
+
+
+http://contentz.mkt941.com/lp/static/closed.html
+
+
+
+ion at http://go.proquest.com/pqdAPI. As part of ProQuest Dialog’s signature global customer service, trainin
