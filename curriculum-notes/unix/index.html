@@ -374,14 +374,14 @@
 <ul>
 <li>man pages missing from git-bash on windows. Fix: "google man ls"</li>
 <li>macos <code>ls \--help</code> doesn't work (it's too BSDish to have the
-        <code>&gt; --help</code> switch)</li>
+        <code>--help</code> switch)</li>
 <li>
 <p><code>sort -n lengths.txt</code> gives the same result without <code>-n</code>
-        &gt; because wc's output is left-padded and spaces collate
-        &gt; differently on MacOS vs. Linux. See
-        &gt; <a href="https://github.com/swcarpentry/shell-novice/issues/810"><em>#810</em></a>.
-        &gt; LANG=C vs. LANG=en_US.UTF8. A better example would use
-        &gt; left-aligned numbers.</p>
+        because wc's output is left-padded and spaces collate
+        differently on MacOS vs. Linux. See
+        <a href="https://github.com/swcarpentry/shell-novice/issues/810"><em>#810</em></a>.
+        LANG=C vs. LANG=en_US.UTF8. A better example would use
+        left-aligned numbers.</p>
 </li>
 <li>
 <p>Tab completion doesn't appear to work in git bash on Windows</p>

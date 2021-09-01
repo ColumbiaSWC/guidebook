@@ -302,6 +302,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#aaron-ts-notes-on-swc-git-novice" class="md-nav__link">
+    Aaron T's notes on SWC git-novice
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -320,24 +327,59 @@
 <ul>
 <li>
 <p>git lesson setup page doesn't say to create a github.com
-        &gt; account; only in the git download instructions. Might be
-        &gt; better to say it here as well.</p>
+        account; only in the git download instructions. Might be
+        better to say it here as well.</p>
 </li>
 <li>
 <p>We didn't get to collaboration via github PR's, merges, etc. due
-        &gt; to poor time management. We need to stick to the syllabus and
-        &gt; limit the digressions. <em>Note from Patrick: kind of feel like it's fine to not get to everything. Better they understand what you cover, in my opinion.</em></p>
+        to poor time management. We need to stick to the syllabus and
+        limit the digressions. <em>Note from Patrick: kind of feel like it's fine to not get to everything. Better they understand what you cover, in my opinion.</em></p>
 </li>
 <li>
 <p>Windows users get a GUI GitHub login prompt when trying to do a
-        &gt; git push to a remote, rather than being prompted on the
-        &gt; terminal</p>
+        git push to a remote, rather than being prompted on the
+        terminal</p>
 </li>
 <li>
 <p>One student confused the <code>!</code> in the GitHub welcome email as part
-        &gt; of their username, which caused git bash to freak out with a
-        &gt; broken pipe error when they tried to push to Github. Worth
-        &gt; noting in case anyone else has this issue.</p>
+        of their username, which caused git bash to freak out with a
+        broken pipe error when they tried to push to Github. Worth
+        noting in case anyone else has this issue.</p>
+</li>
+</ul>
+<h2 id="aaron-ts-notes-on-swc-git-novice">Aaron T's notes on SWC git-novice</h2>
+<ul>
+<li>
+<p>Also did not reach collaboration in a 2.5 hr lesson (2021 August, Python).
+        But, <code>git push origin main</code> was a satisfying stopping point.</p>
+</li>
+<li>
+<p>git-novice lesson uses SSH keys for GitHub auth (as of mid-2021).
+        It helped to walk through <code>ssh-keygen</code> process multiple times from
+        <code>git remote add ...</code> to <code>ssh -T git@github.com</code>, emphasizing every
+        step and suggesting that learners restart in the face of
+        indecipherable SSH permission errors.
+        <em>Snag:</em> renaming <code>id_ed25519</code>,<code>id_ed25519.pub</code> to something else
+            breaks SSH auth.  Next time, I'd say more strongly:
+            "non-default SSH key names will break things".
+        <em>Snag:</em> during SSH keygen, learner browsers point to
+            <code>github.com/username/planets</code>, which has a big "Settings" button
+            that can lead folks to the wrong page.</p>
+</li>
+<li>
+<p><a href="http://swcarpentry.github.io/git-novice/05-history/index.html">Episode 5: Exploring History</a>
+        in "Simplifying the Common Case",
+        old git versions say <code>use "git checkout -- &lt;file&gt;..." to discard
+        changes in working directory</code>,
+        new git versions say <code>use "git restore &lt;file&gt;..." to discard changes
+        in working directory</code>.
+        SWC folks <a href="https://github.com/swcarpentry/git-novice/issues/776">deferred update</a> because
+        <code>restore</code> is still an experimental feature.
+        So learners' computers may show different messages.
+        For discussion, see git-novice issue
+        <a href="https://github.com/swcarpentry/git-novice/issues/776">#776</a>
+        and hyperlink trail therein.
+        Next time, I'd skip <code>git checkout -- &lt;file&gt;</code> entirely.</p>
 </li>
 </ul>
                 
